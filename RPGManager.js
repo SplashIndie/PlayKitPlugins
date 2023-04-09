@@ -1,4 +1,4 @@
-// version 1.2
+// version 1.1
 // esse plugin define algumas configurações de RPG para o objeto escolhido.
 
 // TUTORIAL //
