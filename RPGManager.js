@@ -34,3 +34,7 @@ this['rpgmanager_load'] = () => {
         health.draw();
     }, 10);
 };
+this['getDamage'] = (hit) => {
+    this.rpg_configs.health -= hit;
+    if (this.rpg_configs.health <= 0) this.rpg_configs.health = 0;
+}
